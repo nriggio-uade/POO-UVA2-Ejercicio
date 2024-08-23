@@ -11,7 +11,7 @@ String resolucion; //1080p, 4K)
 char smart; //si o no
 
 
-public Televisor (String marca, String modelo, int anioFabricacion, char tipo, int pulgadas, String resolucion, Char smart) {
+public Televisor (String marca, String modelo, int anioFabricacion, char tipo, int pulgadas, String resolucion, char smart) {
 
     this.marca = marca;
     this.modelo = modelo;
@@ -19,7 +19,7 @@ public Televisor (String marca, String modelo, int anioFabricacion, char tipo, i
     this.tipo = tipo;
     this.pulgadas = pulgadas;
     this.resolucion = resolucion;
-    this.Smart = smart;
+    this.smart = smart;
 }
 
 
