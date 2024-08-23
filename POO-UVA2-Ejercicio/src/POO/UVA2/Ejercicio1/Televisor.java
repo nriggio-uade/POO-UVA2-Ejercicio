@@ -22,4 +22,7 @@ public Televisor (String marca, String modelo, int anioFabricacion, char tipo, i
     this.Smart = smart;
 }
 
+
+
+
 }
