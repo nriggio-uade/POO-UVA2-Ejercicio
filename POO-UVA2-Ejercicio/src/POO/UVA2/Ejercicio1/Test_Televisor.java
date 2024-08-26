@@ -9,7 +9,7 @@ public class Test_Televisor {
         System.out.println(" --- TELE 1 --- ");
         System.out.println("");
         System.out.print(tele1.getMarca() + " " + tele1.getModelo() + " -- " + tele1.getPulgadas() + " pulgadas -- " + tele1.getResolucion() + " -- ");
-            if(tele1.smart= true){ //Por qué no funciona
+            if(tele1.smart= true){ //Por qué no funciona????????
                 System.out.print("Smart");
             }
             else {
