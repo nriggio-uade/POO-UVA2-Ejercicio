@@ -21,20 +21,7 @@ boolean smart;
      this.resolucion = resolucion;
      this.smart = true; 
     }
-
-    public void smart(){
-        this.smart= true;
-    }
-
-    public void noSmart(){
-        this.smart= false;
-    }
-
-    public boolean isSmart(){
-        return smart;
-    }
-
-
+ 
     public String getMarca() {
         return marca;
     }
@@ -92,6 +79,14 @@ boolean smart;
 
     public void setResolucion(String resolucion) {
         this.resolucion = resolucion;
+    }
+
+    public boolean getSmart() {
+        return smart;
+    }
+
+    public void setSmart(boolean smart) {
+        this.smart = smart;
     }
 
 }
