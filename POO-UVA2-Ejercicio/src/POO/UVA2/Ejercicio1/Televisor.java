@@ -2,13 +2,13 @@ package POO.UVA2.Ejercicio1;
 
 public class Televisor {
 
-String marca;
-String modelo;
-int anioFabricacion;
-String tipo; //P=Plasma , L=LCD, O=Oled
-int pulgadas;
-String resolucion; //1080p, 4K
-boolean smart;
+private String marca;
+private String modelo;
+private int anioFabricacion;
+private String tipo; //P=Plasma , L=LCD, O=Oled
+private int pulgadas;
+private String resolucion; //1080p, 4K
+private boolean smart;
 
 
     public Televisor (String marca, String modelo, int anioFabricacion, String tipo, int pulgadas, String resolucion, boolean smart) {
@@ -19,7 +19,7 @@ boolean smart;
      this.tipo = tipo;
      this.pulgadas = pulgadas;
      this.resolucion = resolucion;
-     this.smart = true; 
+     this.smart = smart; 
     }
  
     public String getMarca() {
@@ -81,12 +81,16 @@ boolean smart;
         this.resolucion = resolucion;
     }
 
-    public boolean getSmart() {
-        return smart;
+    public void smart() {
+        this.smart = true;
     }
 
-    public void setSmart(boolean smart) {
-        this.smart = smart;
+    public void noSmart() {
+        this.smart = false;
+    }
+
+    public boolean isSmart() {
+        return smart;
     }
 
 }
