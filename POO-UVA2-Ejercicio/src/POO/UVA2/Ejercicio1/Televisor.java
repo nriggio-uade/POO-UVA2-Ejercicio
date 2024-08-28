@@ -1,7 +1,7 @@
 package POO.UVA2.Ejercicio1;
-
 public class Televisor {
 
+// Atributos
 private String marca;
 private String modelo;
 private int anioFabricacion;
@@ -10,16 +10,15 @@ private int pulgadas;
 private String resolucion; //1080p, 4K
 private boolean smart;
 
-
-    public Televisor (String marca, String modelo, int anioFabricacion, String tipo, int pulgadas, String resolucion, boolean smart) {
-
-     this.marca = marca;
-     this.modelo = modelo;
-     this.anioFabricacion = anioFabricacion;
-     this.tipo = tipo;
-     this.pulgadas = pulgadas;
-     this.resolucion = resolucion;
-     this.smart = smart; 
+//Constructor
+public Televisor (String marca, String modelo, int anioFabricacion, String tipo, int pulgadas, String resolucion, boolean smart) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.anioFabricacion = anioFabricacion;
+    this.tipo = tipo;
+    this.pulgadas = pulgadas;
+    this.resolucion = resolucion;
+    this.smart = smart; 
     }
  
     public String getMarca() {
